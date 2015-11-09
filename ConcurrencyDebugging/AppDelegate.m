@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <MagicalRecord/MagicalRecord.h>
 
 @interface AppDelegate ()
 
@@ -16,6 +17,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [MagicalRecord setupAutoMigratingCoreDataStack];
+    
     // Override point for customization after application launch.
     return YES;
 }

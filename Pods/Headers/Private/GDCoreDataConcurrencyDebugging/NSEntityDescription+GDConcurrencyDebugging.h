@@ -1,0 +1,1 @@
+../../../GDCoreDataConcurrencyDebugging/Classes/NSEntityDescription+GDConcurrencyDebugging.h

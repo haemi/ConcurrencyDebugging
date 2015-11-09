@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87D7B13BE849AF4F1629FF61 /* libPods-ConcurrencyDebugging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B77CD78D4B7A4FC069CD1D /* libPods-ConcurrencyDebugging.a */; };
 		F84FBC6F1BEF65D7002182B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FBC6E1BEF65D7002182B4 /* main.m */; };
 		F84FBC721BEF65D7002182B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FBC711BEF65D7002182B4 /* AppDelegate.m */; };
 		F84FBC751BEF65D7002182B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FBC741BEF65D7002182B4 /* ViewController.m */; };
@@ -15,6 +16,9 @@
 		F84FBC7D1BEF65D7002182B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84FBC7B1BEF65D7002182B4 /* LaunchScreen.storyboard */; };
 		F84FBC881BEF65D7002182B4 /* ConcurrencyDebuggingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FBC871BEF65D7002182B4 /* ConcurrencyDebuggingTests.m */; };
 		F84FBC931BEF65D7002182B4 /* ConcurrencyDebuggingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FBC921BEF65D7002182B4 /* ConcurrencyDebuggingUITests.m */; };
+		F84FBCA21BEF665C002182B4 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F84FBCA01BEF665C002182B4 /* Model.xcdatamodeld */; };
+		F84FBCA71BEF6685002182B4 /* MyEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FBCA41BEF6685002182B4 /* MyEntity+CoreDataProperties.m */; };
+		F84FBCA81BEF6685002182B4 /* MyEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FBCA61BEF6685002182B4 /* MyEntity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49B77CD78D4B7A4FC069CD1D /* libPods-ConcurrencyDebugging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConcurrencyDebugging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B524044FC8D7B8508A27EC58 /* Pods-ConcurrencyDebugging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConcurrencyDebugging.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConcurrencyDebugging/Pods-ConcurrencyDebugging.debug.xcconfig"; sourceTree = "<group>"; };
+		DD006BC02D35817FD7D35045 /* Pods-ConcurrencyDebugging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConcurrencyDebugging.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConcurrencyDebugging/Pods-ConcurrencyDebugging.release.xcconfig"; sourceTree = "<group>"; };
 		F84FBC6A1BEF65D7002182B4 /* ConcurrencyDebugging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcurrencyDebugging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F84FBC6E1BEF65D7002182B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F84FBC701BEF65D7002182B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,11 @@
 		F84FBC8E1BEF65D7002182B4 /* ConcurrencyDebuggingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcurrencyDebuggingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F84FBC921BEF65D7002182B4 /* ConcurrencyDebuggingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcurrencyDebuggingUITests.m; sourceTree = "<group>"; };
 		F84FBC941BEF65D7002182B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F84FBCA11BEF665C002182B4 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		F84FBCA31BEF6685002182B4 /* MyEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MyEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		F84FBCA41BEF6685002182B4 /* MyEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MyEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		F84FBCA51BEF6685002182B4 /* MyEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyEntity.h; sourceTree = "<group>"; };
+		F84FBCA61BEF6685002182B4 /* MyEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyEntity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87D7B13BE849AF4F1629FF61 /* libPods-ConcurrencyDebugging.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DEBF8B971A28A6C925AF416 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B524044FC8D7B8508A27EC58 /* Pods-ConcurrencyDebugging.debug.xcconfig */,
+				DD006BC02D35817FD7D35045 /* Pods-ConcurrencyDebugging.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92864E2BC73285F2E7868AE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49B77CD78D4B7A4FC069CD1D /* libPods-ConcurrencyDebugging.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F84FBC611BEF65D7002182B4 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +115,8 @@
 				F84FBC861BEF65D7002182B4 /* ConcurrencyDebuggingTests */,
 				F84FBC911BEF65D7002182B4 /* ConcurrencyDebuggingUITests */,
 				F84FBC6B1BEF65D7002182B4 /* Products */,
+				2DEBF8B971A28A6C925AF416 /* Pods */,
+				92864E2BC73285F2E7868AE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +133,10 @@
 		F84FBC6C1BEF65D7002182B4 /* ConcurrencyDebugging */ = {
 			isa = PBXGroup;
 			children = (
+				F84FBCA31BEF6685002182B4 /* MyEntity+CoreDataProperties.h */,
+				F84FBCA41BEF6685002182B4 /* MyEntity+CoreDataProperties.m */,
+				F84FBCA51BEF6685002182B4 /* MyEntity.h */,
+				F84FBCA61BEF6685002182B4 /* MyEntity.m */,
 				F84FBC701BEF65D7002182B4 /* AppDelegate.h */,
 				F84FBC711BEF65D7002182B4 /* AppDelegate.m */,
 				F84FBC731BEF65D7002182B4 /* ViewController.h */,
@@ -110,6 +146,7 @@
 				F84FBC7B1BEF65D7002182B4 /* LaunchScreen.storyboard */,
 				F84FBC7E1BEF65D7002182B4 /* Info.plist */,
 				F84FBC6D1BEF65D7002182B4 /* Supporting Files */,
+				F84FBCA01BEF665C002182B4 /* Model.xcdatamodeld */,
 			);
 			path = ConcurrencyDebugging;
 			sourceTree = "<group>";
@@ -147,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F84FBC971BEF65D7002182B4 /* Build configuration list for PBXNativeTarget "ConcurrencyDebugging" */;
 			buildPhases = (
+				DDB5A998E9C2D44F687EAA37 /* Check Pods Manifest.lock */,
 				F84FBC661BEF65D7002182B4 /* Sources */,
 				F84FBC671BEF65D7002182B4 /* Frameworks */,
 				F84FBC681BEF65D7002182B4 /* Resources */,
+				7EB26C100D50AFA9A4F738CA /* Embed Pods Frameworks */,
+				788FB865DA5E8064374405B9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,14 +305,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		788FB865DA5E8064374405B9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConcurrencyDebugging/Pods-ConcurrencyDebugging-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EB26C100D50AFA9A4F738CA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConcurrencyDebugging/Pods-ConcurrencyDebugging-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB5A998E9C2D44F687EAA37 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F84FBC661BEF65D7002182B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F84FBCA71BEF6685002182B4 /* MyEntity+CoreDataProperties.m in Sources */,
 				F84FBC751BEF65D7002182B4 /* ViewController.m in Sources */,
+				F84FBCA81BEF6685002182B4 /* MyEntity.m in Sources */,
 				F84FBC721BEF65D7002182B4 /* AppDelegate.m in Sources */,
 				F84FBC6F1BEF65D7002182B4 /* main.m in Sources */,
+				F84FBCA21BEF665C002182B4 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +500,7 @@
 		};
 		F84FBC981BEF65D7002182B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B524044FC8D7B8508A27EC58 /* Pods-ConcurrencyDebugging.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ConcurrencyDebugging/Info.plist;
@@ -420,6 +512,7 @@
 		};
 		F84FBC991BEF65D7002182B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD006BC02D35817FD7D35045 /* Pods-ConcurrencyDebugging.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ConcurrencyDebugging/Info.plist;
@@ -496,6 +589,7 @@
 				F84FBC991BEF65D7002182B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F84FBC9A1BEF65D7002182B4 /* Build configuration list for PBXNativeTarget "ConcurrencyDebuggingTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +598,7 @@
 				F84FBC9C1BEF65D7002182B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F84FBC9D1BEF65D7002182B4 /* Build configuration list for PBXNativeTarget "ConcurrencyDebuggingUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,8 +607,22 @@
 				F84FBC9F1BEF65D7002182B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F84FBCA01BEF665C002182B4 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F84FBCA11BEF665C002182B4 /* Model.xcdatamodel */,
+			);
+			currentVersion = F84FBCA11BEF665C002182B4 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F84FBC621BEF65D7002182B4 /* Project object */;
 }

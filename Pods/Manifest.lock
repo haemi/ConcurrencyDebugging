@@ -1,0 +1,26 @@
+PODS:
+  - GDCoreDataConcurrencyDebugging (0.2):
+    - JRSwizzle
+  - JRSwizzle (1.0)
+  - MagicalRecord (2.3.0)
+
+DEPENDENCIES:
+  - GDCoreDataConcurrencyDebugging (from `https://github.com/GrahamDennis/GDCoreDataConcurrencyDebugging.git`)
+  - MagicalRecord
+
+EXTERNAL SOURCES:
+  GDCoreDataConcurrencyDebugging:
+    :git: https://github.com/GrahamDennis/GDCoreDataConcurrencyDebugging.git
+    :submodules: true
+
+CHECKOUT OPTIONS:
+  GDCoreDataConcurrencyDebugging:
+    :commit: 344b54581492d482626b2cc730e177ba6bc9de52
+    :git: https://github.com/GrahamDennis/GDCoreDataConcurrencyDebugging.git
+
+SPEC CHECKSUMS:
+  GDCoreDataConcurrencyDebugging: 3f82cc2ff8b047f367ab4d964d2966a3dd029946
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  MagicalRecord: 89eb7d7ead39fb37f01c3d010665ee94d17f8dba
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,1 @@
+../../../GDCoreDataConcurrencyDebugging/Classes/GDConcurrencyCheckingManagedObject.h
