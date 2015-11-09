@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   GDCoreDataConcurrencyDebugging:
-    :commit: 344b54581492d482626b2cc730e177ba6bc9de52
+    :commit: a947e9a6a4268db16f022240903b786797261923
     :git: https://github.com/GrahamDennis/GDCoreDataConcurrencyDebugging.git
 
 SPEC CHECKSUMS:
